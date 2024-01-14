@@ -1,0 +1,15 @@
+{
+    "AppName" : "Campaign",
+    "LeadId" : "LeadID",
+    "InsertedOn" : "LeadCreationTimestamp",
+    "Name" : "FullName",
+    "EmailId" : "Email",
+    "Mobile" : "PhoneNumber",
+    "CityName" : "City",
+    "PinCode" : "PinCode",
+    "Consent" : "Consent",
+    "DMSCode" : "SelectedStore",
+    "Requirement" :"ShopperCategorySelected",
+    "FormId":"FormID"
+    }
+    

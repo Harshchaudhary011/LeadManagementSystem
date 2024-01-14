@@ -1,0 +1,18 @@
+{
+    "Platform" : "str",
+    "Campaign" : "str",
+    "MasterCampaign" :"str",
+    "CampaignID" : "str",
+    "LeadID" : "str",
+    "LeadCreationTimestamp" : "datetime",
+    "LeadModifiedTimestamp" :"datetime",
+    "FullName" : "str",
+    "Email" : "str",
+    "PhoneNumber" : "str",
+    "City" : "str",
+    "PinCode" : "str",
+    "Pending_For_Action": "int",
+    "LeadQuality":"int",
+    "IngestionTimestamp" :"int"
+}
+    

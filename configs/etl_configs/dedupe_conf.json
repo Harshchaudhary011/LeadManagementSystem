@@ -1,0 +1,4 @@
+{
+"dedupe_fields" : ["Campaign_DUMMY", "PhoneNumber_DUMMY", "Email_DUMMY", "PinCode_DUMMY"],
+"dedupe_period_in_days" : 7
+}

@@ -1,0 +1,19 @@
+{
+"Call Back":"OPEN",
+"Non-Engagement":"OPEN",    
+"Not Interested":"CLOSED",
+"Demo Required":"CLOSED",
+"Sale":"CLOSED",
+"Prospects": "OPEN",
+"Unable To Buy":"OPEN",
+"Already Purchased":"CLOSED",
+"Prospects":"OPEN",
+"PROVIDER_TEMP_FAILURE":"OPEN",
+"NC Threshold Cross":"CLOSED",
+"CALL_DROP":"OPEN",
+"FAILED":"OPEN",
+"ATTEMPT_FAILED":"OPEN",
+"BUSY":"OPEN",
+"CALL_NOT_PICKED":"OPEN",
+"CALL_HANGUP":"OPEN"
+}                                              

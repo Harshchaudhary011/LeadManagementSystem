@@ -1,0 +1,50 @@
+import os, json, requests, boto3, time, datetime
+
+
+class PullData(object):
+    '''
+        TO DO : 
+        1. Add file delete logic for temp_data
+    '''
+    aws_access_key_id= 'AKIA5UMB7FLMPJBWUT4X'
+    aws_secret_access_key='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'
+    bucket_name = 'deltax' 
+    file_name = 'BPs/2403/datasets/1/Q171-a3386b16-274e-45f8-90f0-210e7a5b5ee6.csv'
+    tmp_dir = "temp_data"
+    tmp_file_name = os.path.join(PullData.tmp_dir, 
+            f'deltax_temp_file_{PullData.timestr}.csv')
+
+    def __init__(self):
+        self.s3_client = boto3.resource(
+            service_name='s3',
+            region_name='us-east-2',
+            aws_access_key_id = PullData.aws_access_key_id,
+            aws_secret_access_key = PullData.aws_secret_access_key
+            )
+
+        self.timestr = datetime.datetime.now('%Y-%m-%d %H:%M:%S')
+
+    def download_file(self):
+        self.s3_client.download_file(
+                Filename=PullData.tmp_file_name,,
+                Bucket=PullData.bucket_name, 
+                Key=PullData.file_name
+                )
+
+
+
+    def run(self):
+        if not os.path.exists(tmp_dir):
+            os.mkdir(tmp_dir)
+            
+        self.download_file()
+        self.read_file()
+
+        pass
+
+
+if __name__ == "__main__":
+    obj = PullData()
+    obj.run()
+
+

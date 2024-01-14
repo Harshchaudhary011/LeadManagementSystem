@@ -1,0 +1,13 @@
+{
+"Platform" : "Platform",
+"Campaign" : "Campaign",
+"Form Id" : "FormID",
+"Lead Id" : "LeadID",
+"Created Time UTC" : "LeadCreationTimestamp",
+"Email" : "Email",
+"Full Name" : "FullName",
+"Phone Number" : "PhoneNumber",
+"City" : "City",
+"Pin Code" : "PinCode",
+"Consent" : "Consent"
+}
