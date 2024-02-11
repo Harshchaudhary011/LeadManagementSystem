@@ -11,10 +11,10 @@ class GetMdmData():
     TIMEOUT = 10
 
     #@GET_SEC_API =f'https://www.samsungindiamarketing.com/LMSWebAPI/Api/SECDealerMappingDetailsById?MinId={min_id}&MaxId={max_id}'
-    API_CRED = {"Username" : "samsungwebapi" , "Password":"4436612f0e11c5f0be7b70e6efe8d13c41af183f31435819c058edddc2b806d5"}
+    API_CRED = {"Username" : "" , "Password":""}
     
     HEADERS_DI = {
-                'Authorization': 'Basic c2Ftc3VuZ3dlYmFwaTo0NDM2NjEyZjBlMTFjNWYwYmU3YjcwZTZlZmU4ZDEzYzQxYWYxODNmMzE0MzU4MTljMDU4ZWRkZGMyYjgwNmQ1',  
+                'Authorization': 'Basic TOKEN',  
                 'Host': 'www.samsungindiamarketing.com',
                 'Accept': '*/*',
                 'Accept-Encoding': 'gzip, deflate',
