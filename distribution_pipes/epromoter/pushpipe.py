@@ -13,10 +13,10 @@ from utils.log_ops import LogOps
 
 class PushDataEprom(object):
     
-    API_USERNAME = "crm_test"
-    API_PASSWORD = "Sam$123456"
-    GET_TOKEN_API = 'https://crm.maxicus.com/samsung_siel/client/res/templates/record/custom_files/get_token.php'
-    LEAD_PUSH_API = 'https://crm.maxicus.com/samsung_siel/client/res/templates/record/custom_files/post_user.php'
+    API_USERNAME = ""
+    API_PASSWORD = ""
+    GET_TOKEN_API = ''
+    LEAD_PUSH_API = ''
     IST = pytz.timezone('Asia/Kolkata')
     CAMPAIGN_DETAILS_TABLE = '[dbo].[CampaignDetails]'
     TIME_OUT = 10
