@@ -11,12 +11,12 @@ from utils.log_ops import LogOps
 
 
 class StoreData(object):  
-    CAFE_AUTH_KEY = 'bbe22cc2a9bf0b734877a26a458865cabe679b3a'
-    CAFE_KRY_KEY = '30f7c21935e1fab5f1de0d7c553649c1lOpa98'
+    CAFE_AUTH_KEY = ''
+    CAFE_KRY_KEY = ''
     CAFE_LIMIT = 10000
     PLAZA_LIMIT = 10000
-    PLAZA_AUTH_KEY = "8e3213d03552cdf9515f0f2703d77bac4e0500ff"
-    PLAZA_KRY_KEY = "e9d7d3b48add2f6bc81edada5484d644lOpa98"
+    PLAZA_AUTH_KEY = ""
+    PLAZA_KRY_KEY = ""
     COL_MAP_DI = {
                     "zip" : "PinCode", "business_name" : "StoreName",
                     "city" : "City", "longitude" : "StoreLong", "latitude" : "StoreLat",
