@@ -1,42 +1,12 @@
 {
     "CE": {
       "PROD": {
-        "URL": "https://www.smartdost-siel.com/SmartDost_Ce_Service/smartdost.svc/SubmitCustomerByLead",
-        "UserID": "29765",
-        "APIKey": "t2IFmunuwT",
-        "APIToken": "6b03eda"
-      },
-      "UAT": {
-        "URL": "https://smartdost.samsungmarketing.in/SmartDost_Ce_Service_Test/smartdost.svc/SubmitCustomerByLead",
-        "UserID": "27014",
-        "APIKey": "WTg7qg2z4z",
-        "APIToken": "8a923be0"
-      },
-      "TEST": {
-        "URL": "http://test01-smartdost.siel.com/SmartDost_Ce_Service/smartdost.svc/SubmitCustomerByLead",
-        "UserID": "1381",
-        "APIKey": "9oH2XffdYc",
-        "APIToken": "2e7a510c"
-      }
-    },
-    "IM": {
-      "PROD": {
-        "URL": "https://smartdost-siel.com/SmartDost_HHP_Service/SmartDost.svc/SubmitCustomerByLead",
-        "APIUser": "1",
-        "APIKey": "ngUdPJA7td",
-        "APIToken": "8008db77"
-      },
-      "UAT": {
-        "URL": "https://smartdost.samsungmarketing.in/SmartDost_HHP_Service_Test/SmartDost.svc/SubmitCustomerByLead",
-        "APIUser": "1",
-        "APIKey": "ngUdPJA7td",
-        "APIToken": "8008db77"
-      },
-      "TEST": {
-        "URL": "http://test01-smartdost.siel.com/SmartDostRevampService/SmartDost.svc/SubmitCustomerByLead",
-        "APIUser": "1",
-        "APIKey": "ngUdPJA7td",
-        "APIToken": "8008db77"
+        "URL": "",
+        "UserID": "",
+        "APIKey": "",
+        "APIToken": ""
+
+      
       }
     }
   }
