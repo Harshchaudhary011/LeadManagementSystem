@@ -23,12 +23,12 @@ class PullData(object):
     API_DI = {"UAT" : "https://smartdost.samsungmarketing.in" ,"TEST" : "http://test01.samsungindiamarketing.com" ,"PROD" :"https://www.samsungindiamarketing.com"}
     API_HOST_DI = {"UAT" : "www.smartdost.samsungmarketing.in" ,"TEST" : "www.test01.samsungindiamarketing.com" ,"PROD" :"www.samsungindiamarketing.com"}
     UAT = 0
-    API_USERNAME = 'samsungwebapi'
-    API_PASSWORD = '4436612f0e11c5f0be7b70e6efe8d13c41af183f31435819c058edddc2b806d5'
+    API_USERNAME = ''
+    API_PASSWORD = ''
     BATCH_SIZE = 500
     COLS_TO_DECRYPT = ["Email", "PhoneNumber"] 
     KEY = "!*&@9876543210"
-    IV = [18, 52, 86, 120, 144, 171, 205, 239]
+    IV = ''
     TIME_OUT = 15
 
 
@@ -59,7 +59,7 @@ class PullData(object):
             get_lead_min_max_id_api =  PullData.API_DI[self.env_set] + f"/LMSWebAPI/Api/LMSLeadCountMinAndMaxId?StartDate={start_date}&EndDate={end_date}"
             payload={}
             headers_di = {
-                'Authorization': 'Basic c2Ftc3VuZ3dlYmFwaTo0NDM2NjEyZjBlMTFjNWYwYmU3YjcwZTZlZmU4ZDEzYzQxYWYxODNmMzE0MzU4MTljMDU4ZWRkZGMyYjgwNmQ1',  
+                'Authorization': 'Basic TOKEN',  
                 'Host': PullData.API_HOST_DI[self.env_set],#'www.samsungindiamarketing.com',
                 'Accept': '*/*',
                 'Accept-Encoding': 'gzip, deflate',
@@ -125,7 +125,7 @@ class PullData(object):
             buckets = list(range(min_id, max_id+PullData.BATCH_SIZE, PullData.BATCH_SIZE))
             buckets = [buckets[i:i+2] for i,e in enumerate(buckets) if len(buckets[i:i+2]) == 2]
             headers_di = {
-                'Authorization': 'Basic c2Ftc3VuZ3dlYmFwaTo0NDM2NjEyZjBlMTFjNWYwYmU3YjcwZTZlZmU4ZDEzYzQxYWYxODNmMzE0MzU4MTljMDU4ZWRkZGMyYjgwNmQ1',  
+                'Authorization': 'Basic TOKEN',  
                 'Host': PullData.API_HOST_DI[self.env_set] ,#'www.samsungindiamarketing.com',
                 'Accept': '*/*',
                 'Accept-Encoding': 'gzip, deflate',
